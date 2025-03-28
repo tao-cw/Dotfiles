@@ -2,7 +2,9 @@
 
 export HISTCONTROL=ignoredups
 
-export PATH="$HOME/.local/bin:${PATH}:/opt/cuda/bin:/usr/local/texlive/2023/bin/x86_64-linux"
+export PATH="$HOME/.local/bin:${PATH}:/opt/texlive/2024/bin/x86_64-linux"
+export MANPATH="$(man --path):/opt/texlive/2024/texmf-dist/doc/man"
+export INFOPATH="${INFOPATH}:/opt/texlive/2024/texmf-dist/doc/info"
 [ -x "$(which nvim)" ] && export EDITOR='nvim'
 
 export wallpapers="$HOME/Pictures/wallpapers"
