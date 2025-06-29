@@ -12,13 +12,11 @@ https://github.com/yshui/picom/releases.atom "release" "~Picom"
 
 https://www.kernel.org/feeds/kdist.xml "release" "~Linux Kernel release"
 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCrqM0Ym_NbK1fqeQG2VIohg "youtube" "~Tsoding Daily"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "youtube" "~Luke Smith"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCYPT3wl0MgbOz63ho166KOw "youtube" "~小岛大浪吹"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ "youtube" "~freeCodeCamp.org"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA "youtube" "~Ben Eater"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "youtube" "~3Blue1Brown"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC4gzU_8MxRDiQrSFOiT79tQ "youtube" "~立党 lidang"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrqM0Ym_NbK1fqeQG2VIohg "youtube" "~YouTube: Tsoding Daily"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "youtube" "~YouTube: Luke Smith"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ "youtube" "~YouTube: freeCodeCamp.org"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA "youtube" "~YouTube: Ben Eater"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "youtube" "~YouTube: 3Blue1Brown"
 
 https://zignar.net/index.xml "blog" "~Mathias Fußenegger"
 https://www.uninformativ.de/blog/feeds/en.atom "blog" "~uninformativ.de"
