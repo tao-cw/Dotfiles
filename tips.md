@@ -1,9 +1,9 @@
 # Usuful tips
 
 ```shell
-curl cip.cc
-curl cheat.sh/{command}
-curl wttr.in[/location]
+$ curl cip.cc
+$ curl cheat.sh/{command}
+$ curl wttr.in[/location]
 ```
 
 `/usr/share/X11/xkb/rules/base.lst`
@@ -20,5 +20,10 @@ Cloudflare WARP
 
 ## default app
 ```shell
-xdg-mime default org.pwmt.zathura.desktop application/pdf
+$ xdg-mime default org.pwmt.zathura.desktop application/pdf
+```
+
+## set keystroke repeat rate
+```shell
+$ xset r rate 330 50
 ```

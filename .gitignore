@@ -20,3 +20,8 @@ emacs/projects
 .ssh/known_hosts.old
 nvim/lazy-lock.json
 nvim/lazyvim.json
+emacs/eln-cache/30.1-de84bc8a
+.ssh/hosts
+git/gitk
+mpv/scripts/ytrangefix/cert.pem
+mpv/scripts/ytrangefix/key.pem
