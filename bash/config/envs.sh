@@ -11,6 +11,7 @@ export wallpapers="$HOME/Pictures/wallpapers"
 export DWM="$HOME/workspace/src/dwm"
 export ALSA_CARD="Generic_1"
 export BROWSER="chromium"
+export DF="$HOME/workspace/Dotfiles"
 
 [ -x "$(which fcitx5 2>/dev/null)" ] || [ -x "$(which fcitx 2>/dev/null)" ] &&
 	{

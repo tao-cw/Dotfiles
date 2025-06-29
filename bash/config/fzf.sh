@@ -1,5 +1,5 @@
 [ -x "$(which fzf 2>/dev/null)" ] || return
-source '/usr/share/fzf/key-bindings.bash'
+eval "$(fzf --bash)"
 
 [ -f '/usr/share/bash-completion/completions/fzf' ]\
         && source '/usr/share/bash-completion/completions/fzf'\
