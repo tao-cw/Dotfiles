@@ -1,8 +1,9 @@
 //@theme "gruvbox-dark"
 configuration {
     font: "Hack Nerd Font 14";
+    window-format: "{icon} {name}";
     dpi: 192;
 }
 
 /* vim: set ft=css: */
-@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
+@theme "gruvbox-dark-hard.rasi"
