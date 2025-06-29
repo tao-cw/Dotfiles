@@ -1,5 +1,0 @@
-vim.keymap.set({ "i", "n" }, "<esc>", "<cmd>nohlsearch<cr><esc>", { desc = "Clear hlsearch and Esc" })
-vim.keymap.set("i", "jf", "<esc>", { desc = "Esc" })
-vim.keymap.set("n", "<leader>;", ":")
-vim.keymap.set("n", "<leader>qq", ":q<cr>")
-vim.keymap.set("n", "<leader>ui", vim.show_pos, { desc = "Inspect Pos" })

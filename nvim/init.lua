@@ -1,7 +1,2 @@
-vim.g.mapleader = " "
-
-require("options")
-require("autocmds")
-require("keymaps")
-
-vim.cmd([[colorscheme gruvbox]])
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
