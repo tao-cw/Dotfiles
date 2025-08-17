@@ -1,16 +1,4 @@
-https://archlinux.org/feeds/news "archlinux" "news"
-https://suckless.org/atom.xml "suckless" "news" "~Suckless.org: News"
-https://git.suckless.org/st/atom.xml "suckless" "commits" "~St commits"
-https://git.suckless.org/dwm/atom.xml "suckless" "commits" "~Dwm commits"
-
-https://github.com/neovim/neovim/tags.atom "neovim" "release" "~neovim release"
-https://github.com/tmux/tmux/releases.atom "shell" "release" "~Tmux release"
-https://github.com/alist-org/alist/releases.atom "release" "~Alist release"
-https://github.com/2dust/v2rayNG/releases.atom "release" "~V2rayNG release"
-https://github.com/jesseduffield/lazygit/releases.atom "release" "~Lazygit release"
-https://github.com/yshui/picom/releases.atom "release" "~Picom"
-
-https://www.kernel.org/feeds/kdist.xml "release" "~Linux Kernel release"
+# tags: youtube blog news release commit
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCrqM0Ym_NbK1fqeQG2VIohg "youtube" "~YouTube: Tsoding Daily"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "youtube" "~YouTube: Luke Smith"
@@ -18,6 +6,23 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ "yo
 https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA "youtube" "~YouTube: Ben Eater"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "youtube" "~YouTube: 3Blue1Brown"
 
-https://zignar.net/index.xml "blog" "~Mathias Fußenegger"
-https://www.uninformativ.de/blog/feeds/en.atom "blog" "~uninformativ.de"
-https://jdhao.github.io/index.xml
+https://zignar.net/index.xml "blog" "~Blog: Mathias Fußenegger"
+https://www.uninformativ.de/blog/feeds/en.atom "blog" "~Blog: uninformativ.de"
+https://jdhao.github.io/index.xml "blog" "~Blog: jdhao"
+https://skywind.me/blog/feed "blog" "~Blog: skywind"
+
+https://archlinux.org/feeds/news "news" "~News: ArchLinux"
+https://suckless.org/atom.xml "news" "~News: Suckless.org"
+https://newsboat.org/news.atom "news" "~News: newsboat"
+https://hellogithub.com/rss "news" "~News: hellogithub"
+https://git.suckless.org/st/atom.xml "commit" "~Commits: st"
+https://git.suckless.org/dwm/atom.xml "commit" "~Commits: dwm"
+
+https://github.com/neovim/neovim/tags.atom "release" "~Releases: neovim"
+https://github.com/tmux/tmux/releases.atom "release" "~Releases: Tmux"
+https://github.com/alist-org/alist/releases.atom "release" "~Releases: Alist"
+https://github.com/2dust/v2rayNG/releases.atom "release" "~Releases: V2rayNG"
+https://github.com/jesseduffield/lazygit/releases.atom "release" "~Releases: Lazygit"
+https://github.com/yshui/picom/releases.atom "release" "~Releases: Picom"
+
+https://www.kernel.org/feeds/kdist.xml "release" "~Releases: Linux Kernel"

@@ -6,25 +6,26 @@ cookie-cache "~/.config/newsboat/cookie.txt"
 download-retries 2
 
 # Generic bindings
-bind-key j down
-bind-key k up
-bind-key u halfpageup
-bind-key d halfpagedown
+bind j everywhere down
+bind k everywhere up
+bind u everywhere halfpageup
+bind d everywhere halfpagedown
+bind g everywhere home
+bind G everywhere end
 
-bind-key Q hard-quit
-bind-key ? help
-bind-key h quit
-bind-key l open
+bind Q everywhere hard-quit
+bind ? everywhere help
+bind h everywhere quit
+bind l everywhere open
 
-bind-key r toggle-article-read articlelist
-bind-key J next-feed articlelist
-bind-key K prev-feed articlelist
+bind r articlelist toggle-article-read
+bind J articlelist next-feed
+bind K articlelist prev-feed
 
-browser chromium
 macro , open-in-browser
 macro t set browser "qndl" ; open-in-browser ; set browser linkhandler
 macro a set browser "tsp yt-dlp --embed-metadata -xic -f bestaudio/best --restrict-filenames" ; open-in-browser ; set browser linkhandler
-macro v set browser "setsid -f mpv > /dev/null 2>&1" ; open-in-browser ; set browser linkhandler
+macro v set browser "setsid -f mpv > /dev/null 2>&1" ; open-in-browser ; set browser chromium
 macro w set browser "lynx" ; open-in-browser ; set browser linkhandler
 macro c set browser "echo %u | xclip -r -sel c" ; open-in-browser ; set browser linkhandler
 
