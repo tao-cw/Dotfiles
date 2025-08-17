@@ -11,3 +11,10 @@
 
 [credential]
   helper = cache
+
+[sendemail]
+  smtpserver = smtp.qq.com
+  smtpuser = taocw@foxmail.com
+  smtppass = xxx
+  smtpencryption = ssl
+  smtpserverport = 465
