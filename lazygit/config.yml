@@ -1,5 +1,5 @@
 gui:
-  scrollHeight: 5 
+  scrollHeight: 5
   scrollPastBottom: false
   nerdFontsVersion: '3'
   showBottomLine: false
