@@ -6,6 +6,7 @@ set icons
 set cursorpreviewfmt "\033[7;90m"
 set previewer "~/.config/lf/scope"
 set cleaner "~/.config/lf/cleaner"
+set autoquit false
 
 ${{
     w=$(tput cols)
