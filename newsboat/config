@@ -6,7 +6,7 @@ download-retries 2
 
 include ~/.config/newsboat/keybind
 include ~/.config/newsboat/gruvbox
-include ~/.config/newsboat/micro
+include ~/.config/newsboat/macro
 
 articlelist-title-format "Articles in feed '%T' (%u unread)"
 feedlist-title-format "Feeds (%u unread, %t total)"
