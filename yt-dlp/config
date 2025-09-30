@@ -1,2 +1,4 @@
 --cookies-from-browser chromium
 --force-ipv4
+--downloader aria2c
+--downloader-args aria2c:'-c -j 3 -x 3 -s 3 -k 1M'
