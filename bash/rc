@@ -9,3 +9,5 @@ source $omb/config/settings.sh
 source $omb/config/aliases.sh
 [[ -x /bin/fzf ]] && source $omb/config/fzf.sh
 [[ -x /bin/zoxide ]] && source $omb/config/z.sh
+
+source $omb/config/pyvenv.sh
