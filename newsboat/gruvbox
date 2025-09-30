@@ -1,0 +1,15 @@
+# Colors from "gruvbox" colorscheme https://github.com/morhetz/gruvbox
+color article                              color223 black
+color background                           white    black
+color info                                 color142 black
+color listfocus                            color214 black
+color listfocus_unread                     color214 black
+color listnormal                           color246 black
+color listnormal_unread                    color175 black
+highlight article "^Feed:.*"               color175 black
+highlight article "^Title:.*"              color214 black bold
+highlight article "^Author:.*"             color167 black
+highlight article "^Link:.*"               color109 black
+highlight article "^Date:.*"               color142 black
+highlight article "\\[[0-9]\\+\\]"         color208 black bold
+highlight article "\\[[^0-9].*[0-9]\\+\\]" color167 black bold

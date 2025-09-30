@@ -1,15 +1,29 @@
-# tags: youtube blog news release commit
-
 https://www.youtube.com/feeds/videos.xml?channel_id=UCrqM0Ym_NbK1fqeQG2VIohg "youtube" "~YouTube: Tsoding Daily"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "youtube" "~YouTube: Luke Smith"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ "youtube" "~YouTube: freeCodeCamp.org"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA "youtube" "~YouTube: Ben Eater"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "youtube" "~YouTube: 3Blue1Brown"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCapPWG_ppEuYvelriReTcOA "youtube" "~YouTube: 二爷故事"
+
+https://rsshub.taocw.top/bilibili/user/dynamic/245645656 "bilibili" "~Bilibili: 码农高天"
+https://rsshub.taocw.top/bilibili/user/dynamic/2073420539 "bilibili" "~Bilibili: lddlinan"
+https://rsshub.taocw.top/bilibili/user/dynamic/1632276842 "bilibili" "~Bilibili: Ayumu"
+https://rsshub.taocw.top/bilibili/user/dynamic/483162496 "bilibili" "~Bilibili: 英语兔"
+https://rsshub.taocw.top/bilibili/user/dynamic/946974 "bilibili" "~Bilibili: 影视飓风"
+https://rsshub.taocw.top/bilibili/user/dynamic/390606417 "bilibili" "~Bilibili: Par4g0N"
+https://rsshub.taocw.top/bilibili/user/dynamic/20259914 "bilibili" "~Bilibili: 稚晖君"
+https://rsshub.taocw.top/bilibili/user/dynamic/3546378898770447 "bilibili" "~Bilibili: 竖了个三"
+https://rsshub.taocw.top/bilibili/user/dynamic/40606197 "bilibili" "~Bilibili: 步履不停的后天"
+https://rsshub.taocw.top/bilibili/user/dynamic/478720594 "bilibili" "~Bilibili: 少吃点布洛芬"
+https://rsshub.taocw.top/bilibili/user/dynamic/512192614 "bilibili" "~Bilibili: 修车师傅-猫哥力"
+https://rsshub.taocw.top/bilibili/user/dynamic/254463269 "bilibili" "~Bilibili: 毕导"
 
 https://zignar.net/index.xml "blog" "~Blog: Mathias Fußenegger"
 https://www.uninformativ.de/blog/feeds/en.atom "blog" "~Blog: uninformativ.de"
 https://jdhao.github.io/index.xml "blog" "~Blog: jdhao"
 https://skywind.me/blog/feed "blog" "~Blog: skywind"
+https://www.ducksoft.site/rss-feed.xml "blog" "~Blog: Ducksoft"
+https://blog.imouto.in/index.xml "blog" "~Blog: Tianling"
 
 https://archlinux.org/feeds/news "news" "~News: ArchLinux"
 https://suckless.org/atom.xml "news" "~News: Suckless.org"
@@ -24,5 +38,8 @@ https://github.com/alist-org/alist/releases.atom "release" "~Releases: Alist"
 https://github.com/2dust/v2rayNG/releases.atom "release" "~Releases: V2rayNG"
 https://github.com/jesseduffield/lazygit/releases.atom "release" "~Releases: Lazygit"
 https://github.com/yshui/picom/releases.atom "release" "~Releases: Picom"
+https://newsboat.org/news.atom "release" "~Releases: newsboat"
 
 https://www.kernel.org/feeds/kdist.xml "release" "~Releases: Linux Kernel"
+
+https://peps.python.org/peps.rss "python" "~Python: PEPs"
