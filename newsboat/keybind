@@ -10,3 +10,7 @@ bind l everywhere open
 
 bind J articlelist next-feed
 bind K articlelist prev-feed
+
+bind U article show-urls
+
+unbind-key e

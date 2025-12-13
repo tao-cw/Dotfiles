@@ -1,8 +1,10 @@
-auto-reload no
+auto-reload yes
 show-keymap-hint no
 show-read-feeds yes
 cookie-cache "~/.config/newsboat/cookie.txt"
 download-retries 2
+external-url-viewer "urlscan -dc -r 'linkhandler {}'"
+browser linkhandler
 
 include ~/.config/newsboat/keybind
 include ~/.config/newsboat/gruvbox
