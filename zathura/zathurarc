@@ -1,11 +1,9 @@
-set sandbox none
 set statusbar-h-padding 0
 set statusbar-v-padding 0
-set page-padding 1
 set selection-clipboard clipboard
-set font "SauceCodePro Nerd Font normal 14"
 set guioptions ''
-set adjust-open "width"
+set adjust-open width
+set font 'sans-serif normal 14'
 
 map <A-i> zoom in
 map <A-o> zoom out
