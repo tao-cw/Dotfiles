@@ -1,5 +1,7 @@
 lyrics_directory = ~/Music/lyrics
 mpd_music_dir = ~/Music
 
-mouse_support = "yes"
+mouse_support = yes
 autocenter_mode = yes
+browser_sort_mode = "format"
+browser_sort_format = "%a"
