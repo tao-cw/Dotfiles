@@ -26,3 +26,4 @@ git/gitk
 mpv/scripts/ytrangefix/cert.pem
 mpv/scripts/ytrangefix/key.pem
 btop
+/mpd/playlists/podcast.m3u
