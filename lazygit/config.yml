@@ -3,6 +3,7 @@ gui:
   scrollPastBottom: false
   nerdFontsVersion: '3'
   showBottomLine: false
+  screenMode: 'half'
 
 notARepository: skip
 promptToReturnFromSubprocess: false
