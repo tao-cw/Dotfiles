@@ -9,5 +9,6 @@ source $omb/config/settings.sh
 source $omb/config/aliases.sh
 [[ -x /bin/fzf ]] && source $omb/config/fzf.sh
 [[ -x /bin/zoxide ]] && source $omb/config/z.sh
+[[ -x /bin/yazi ]] && source $omb/config/yazi.sh
 
 source $omb/config/pyvenv.sh

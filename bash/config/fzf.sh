@@ -22,6 +22,6 @@ _fzf_compgen_dir() {
 }
 
 _fzf_complete_tldr() {
-  _fzf_complete --multi --reverse  -- "$@" < <(tldr -l)
+  _fzf_complete --multi --reverse  -- "$@" < <(tldr -l 2> /dev/null)
 }
 [ -n "$BASH" ] && complete -F _fzf_complete_tldr -o default -o bashdefault tldr

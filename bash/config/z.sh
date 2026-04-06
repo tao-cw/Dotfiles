@@ -1,1 +1,1 @@
-eval "$(zoxide init bash)"
+eval "$(command zoxide init bash)"
