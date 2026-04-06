@@ -26,4 +26,5 @@ $ xdg-mime default org.pwmt.zathura.desktop application/pdf
 ## set keystroke repeat rate
 ```shell
 $ xset r rate 330 50
+$ xmodmap ~/.Xmodmap && xset r rate 330 50
 ```
