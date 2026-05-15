@@ -3,7 +3,7 @@ set statusbar-v-padding 0
 set selection-clipboard clipboard
 set guioptions ''
 set adjust-open width
-set font 'sans-serif normal 14'
+set font 'Source Han Sans CN normal 14'
 
 map <A-i> zoom in
 map <A-o> zoom out
