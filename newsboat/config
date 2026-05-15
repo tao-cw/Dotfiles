@@ -3,7 +3,7 @@ show-keymap-hint no
 show-read-feeds yes
 cookie-cache "~/.config/newsboat/cookie.txt"
 download-retries 2
-external-url-viewer "urlscan -dc -r 'linkhandler {}'"
+external-url-viewer "urlscan --regex 'https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)' -dc -r 'linkhandler {}'"
 browser linkhandler
 
 include ~/.config/newsboat/keybind

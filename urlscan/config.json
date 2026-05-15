@@ -1,0 +1,116 @@
+{
+  "palettes": {
+    "default": [
+      [
+        "header",
+        "white",
+        "dark green",
+        "standout",
+        "#EBDBB2",
+        "#689D6A"
+      ],
+      [
+        "footer",
+        "white",
+        "dark red",
+        "standout",
+        "#EBDBB2",
+        "#CC241D"
+      ],
+      [
+        "search",
+        "black",
+        "dark green",
+        "standout",
+        "#282828",
+        "#B8BB26"
+      ],
+      [
+        "msgtext",
+        "",
+        "",
+        "",
+        "#EBDBB2",
+        "#282828"
+      ],
+      [
+        "msgtext:ellipses",
+        "light gray",
+        "black",
+        "",
+        "#928374",
+        "#282828"
+      ],
+      [
+        "urlref:number:braces",
+        "light gray",
+        "black",
+        "",
+        "#928374",
+        "#282828"
+      ],
+      [
+        "urlref:number",
+        "yellow",
+        "black",
+        "standout",
+        "#FABD2F",
+        "#282828"
+            ],
+            [
+              "urlref:url",
+              "white",
+              "black",
+              "standout",
+              "#83A598",
+              "#282828"
+            ],
+            [
+              "url:sel",
+              "white",
+              "dark blue",
+              "bold",
+              "#EBDBB2",
+              "#504945"
+            ]
+    ]
+  },
+  "keys": {
+    "/": "search_key",
+    "0": "digits",
+    "1": "digits",
+    "2": "digits",
+    "3": "digits",
+    "4": "digits",
+    "5": "digits",
+    "6": "digits",
+    "7": "digits",
+    "8": "digits",
+    "9": "digits",
+    "a": "add_url",
+    "C": "clipboard",
+    "c": "context",
+    "ctrl l": "clear_screen",
+    "ctrl f": "page_down",
+    "ctrl b": "page_up",
+    "d": "del_url",
+    "f1": "help_menu",
+    "G": "bottom",
+    "g": "top",
+    "j": "down",
+    "k": "up",
+    "J": "next",
+    "K": "previous",
+    "P": "clipboard_pri",
+    "l": "link_handler",
+    "o": "open_queue",
+    "O": "open_queue_win",
+    "p": "palette",
+    "Q": "quit",
+    "q": "quit",
+    "R": "reverse",
+    "S": "all_shorten",
+    "s": "shorten",
+    "u": "all_escape"
+  }
+}
