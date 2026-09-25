@@ -1,7 +1,127 @@
+##################################################################
+## ncmpcpp config — gruvbox dark                                ##
+## ~/.config/ncmpcpp -> ~/workspace/Dotfiles/ncmpcpp            ##
+##################################################################
+
+##### directories / connection #####
+ncmpcpp_directory = ~/.config/ncmpcpp
 lyrics_directory = ~/Music/lyrics
 mpd_music_dir = ~/Music
+mpd_host = localhost
+mpd_port = 6600
 
-mouse_support = yes
+##### behaviour #####
+mouse_support = no
 autocenter_mode = yes
-browser_sort_mode = "format"
-browser_sort_format = "%a"
+centered_cursor = yes
+cyclic_scrolling = no
+playlist_disable_highlight_delay = 5
+connected_message_on_startup = no
+header_visibility = yes
+header_text_scrolling = yes
+statusbar_visibility = yes
+user_interface = classic
+screen_switcher_mode = playlist, browser
+ignore_leading_the = yes
+
+##### browser / library #####
+browser_display_mode = classic
+playlist_display_mode = columns
+media_library_primary_tag = artist
+media_library_albums_split_by_date = yes
+
+##### progress / status #####
+## three chars: filled, head, empty
+progressbar_look = "=>-"
+playlist_show_remaining_time = no
+follow_now_playing_lyrics = no
+
+##### visualizer (mpd fifo output is already configured) #####
+visualizer_data_source = /tmp/mpd.fifo
+visualizer_output_name = Visualizer feed
+visualizer_in_stereo = yes
+visualizer_type = spectrum
+visualizer_fps = 60
+visualizer_look = ●▮
+
+##################################################################
+## gruvbox dark palette                                         ##
+##                                                              ##
+## ncmpcpp colour numbers are 1-based: a number N renders as    ##
+## xterm-256 index N-1 (verified on ncmpcpp 0.10.1).            ##
+##                                                              ##
+##   bg0 236  bg1 238  bg2 240  bg3 242  bg4 244               ##
+##   gray 246  fg4 248  fg3 145  fg2 188  fg1 224  fg0 231     ##
+##   red 204  green 143  yellow 215  blue 110                   ##
+##   purple 176  aqua 109  orange 209                           ##
+##################################################################
+
+colors_enabled = yes
+
+##### window chrome #####
+window_border_color = 244
+active_window_border = 209
+alternative_ui_separator_color = 242
+
+##### text #####
+header_window_color = 224
+main_window_color = 224
+empty_tag_color = 244
+statusbar_color = 224
+statusbar_time_color = 215:b
+player_state_color = 209:b
+
+##### statusbar decoration #####
+state_line_color = 242
+state_flags_color = 215:b
+volume_color = 109
+
+##### progressbar #####
+progressbar_color = 244:b
+progressbar_elapsed_color = 209:b
+
+##### two-line UI / lyrics accents #####
+color1 = 110
+color2 = 143
+
+##### visualizer: green -> yellow -> orange -> red #####
+visualizer_color = 101, 107, 143, 149, 179, 215, 209, 203, 168, 161
+
+##################################################################
+## row markers (format strings: $(fg) or $(fg_bg) ... $(end))   ##
+##################################################################
+
+## cursor row: bright cream on bg1
+current_item_prefix = $(231_238)$b
+current_item_suffix = $/b$(end)
+
+## cursor row in the inactive pane
+current_item_inactive_column_prefix = $(224_238)$b
+current_item_inactive_column_suffix = $/b$(end)
+
+## the song actually playing: orange + bold
+now_playing_prefix = $(209)$b
+now_playing_suffix = $/b$(end)
+
+## items marked with v: reverse yellow
+selected_item_prefix = $(215)$r
+selected_item_suffix = $/r$(end)
+
+browser_playlist_prefix = "$(209)playlist$(end) "
+modified_item_prefix = $(143)> $(end)
+
+##################################################################
+## song list / statusbar / header formats                       ##
+##################################################################
+
+## playlist_display_mode = columns  -> this is what you see
+song_columns_list_format = (20)[109]{a} (6f)[248]{NE} (50)[224]{t|f:Title} (20)[110]{b} (7f)[145]{lr:Time}
+
+## playlist_display_mode = classic -> this is what you see
+song_list_format = {$(248)%a$(end) - }{$(224)%t$(end)}|{$(224)%f$(end)}$R{$(242)%l$(end)}
+song_library_format = {$(248)%n$(end) - }{%t}|{%f}
+song_status_format = {{$(209)%a$(end)}{ $(242)- $(end)$(188)%b$(end)}{ $(242)- $(end)$(224)%t$(end)}}|{$(224)%f$(end)}
+
+## only used when user_interface = alternative
+alternative_header_first_line_format = $b$(209)$aqqu$/a$(end) {$(231)%t$(end)}|{$(224)%f$(end)} $(209)$atqq$/a$(end)$/b
+alternative_header_second_line_format = {{$(209)%a$(end)}{ - $(110)%b$(end)}{ ($(215)%y$(end))}}|{%D}
