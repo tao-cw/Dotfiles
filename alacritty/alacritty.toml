@@ -1,0 +1,15 @@
+[general]
+import = ["themes/gruvbox-dark.toml"]
+
+[font]
+size = 16.0
+
+[window]
+decorations = "None"
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+
+[cursor]
+style = { shape = "Block", blinking = "Always" }
+blink_interval = 700
+blink_timeout = 0
