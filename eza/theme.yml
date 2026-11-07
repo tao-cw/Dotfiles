@@ -1,0 +1,100 @@
+# Gruvbox theme for eza
+# Palette: classic gruvbox (matches nvim-taocw/colors/gruvbox.lua and yazi)
+
+filekinds:
+  normal:       { foreground: "#ebdbb2" }  # fg1
+  directory:    { foreground: "#83a598", is_bold: true }  # bright_blue
+  symlink:      { foreground: "#8ec07c" }  # aqua
+  pipe:         { foreground: "#d3869b" }  # purple
+  block_device: { foreground: "#fe8019" }  # orange
+  char_device:  { foreground: "#fe8019" }
+  socket:       { foreground: "#d3869b" }
+  special:      { foreground: "#fb4934" }  # red
+  executable:   { foreground: "#b8bb26", is_bold: true }  # green
+  mount_point:  { foreground: "#8ec07c", is_bold: true }
+
+perms:
+  user_read:          { foreground: "#a89984" }  # fg4
+  user_write:         { foreground: "#fabd2f" }  # yellow
+  user_execute_file:  { foreground: "#b8bb26" }
+  user_execute_other: { foreground: "#8ec07c" }
+  group_read:         { foreground: "#7c6f64" }  # bg4
+  group_write:        { foreground: "#d79921" }  # neutral_yellow
+  group_execute:      { foreground: "#98971a" }  # neutral_green
+  other_read:         { foreground: "#665c54" }  # bg3
+  other_write:        { foreground: "#af3a03" }  # faded_orange
+  other_execute:      { foreground: "#79740e" }  # faded_green
+  special_user_file:  { foreground: "#fe8019", is_bold: true }
+  special_other:      { foreground: "#af3a03" }
+  attribute:          { foreground: "#83a598" }
+
+size:
+  major:       { foreground: "#fabd2f" }
+  minor:       { foreground: "#d3869b" }
+  number_byte: { foreground: "#a89984" }
+  number_kilo: { foreground: "#ebdbb2" }
+  number_mega: { foreground: "#fabd2f" }
+  number_giga: { foreground: "#fe8019" }
+  number_huge: { foreground: "#fb4934" }
+  unit_byte:   { foreground: "#7c6f64" }
+  unit_kilo:   { foreground: "#a89984" }
+  unit_mega:   { foreground: "#d79921" }
+  unit_giga:   { foreground: "#d65d0e" }
+  unit_huge:   { foreground: "#cc241d" }
+
+users:
+  user_you:   { foreground: "#8ec07c" }  # aqua
+  user_root:  { foreground: "#fb4934" }  # red
+  user_other: { foreground: "#fabd2f" }  # yellow
+  group_yours: { foreground: "#689d6a" }
+  group_other: { foreground: "#b57614" }
+  group_root:  { foreground: "#cc241d" }
+
+links:
+  normal:          { foreground: "#8ec07c" }
+  multi_link_file: { foreground: "#d3869b" }
+
+git:
+  new:       { foreground: "#b8bb26" }  # green
+  modified:  { foreground: "#fabd2f" }  # yellow
+  deleted:   { foreground: "#fb4934" }  # red
+  renamed:   { foreground: "#83a598" }  # blue
+  ignored:   { foreground: "#665c54", is_dimmed: true }
+  conflicted: { foreground: "#fe8019" }  # orange
+
+git_repo:
+  branch_main:  { foreground: "#ebdbb2", is_bold: true }
+  branch_other: { foreground: "#d3869b" }
+  git_clean:    { foreground: "#b8bb26" }
+  git_dirty:    { foreground: "#fabd2f" }
+
+file_type:
+  image:      { foreground: "#d3869b" }  # purple
+  video:      { foreground: "#b16286" }  # neutral_purple
+  music:      { foreground: "#83a598" }  # blue
+  crypto:     { foreground: "#b8bb26", is_bold: true }  # green
+  document:   { foreground: "#8ec07c" }  # aqua
+  compressed: { foreground: "#fb4934" }  # red
+  temp:       { foreground: "#7c6f64", is_dimmed: true }
+  compiled:   { foreground: "#fabd2f" }  # yellow
+  build:      { foreground: "#d79921", is_underline: true }
+  source:     { foreground: "#fabd2f" }
+
+punctuation: { foreground: "#7c6f64" }
+date:        { foreground: "#a89984" }
+inode:       { foreground: "#665c54" }
+blocks:      { foreground: "#665c54" }
+header:      { foreground: "#fabd2f", is_bold: true }
+octal:       { foreground: "#d3869b" }
+flags:       { foreground: "#fe8019" }
+control_char: { foreground: "#fe8019", is_bold: true }
+broken_symlink:   { foreground: "#fb4934", is_bold: true }
+broken_path_overlay: { foreground: "#cc241d", is_italic: true }
+
+security_context:
+  selinux:
+    colon:  { foreground: "#665c54" }
+    user:   { foreground: "#8ec07c" }
+    role:   { foreground: "#fabd2f" }
+    typ:    { foreground: "#83a598" }
+    range:  { foreground: "#d3869b" }
