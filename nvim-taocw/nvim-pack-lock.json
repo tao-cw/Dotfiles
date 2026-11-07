@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "gruvbox.nvim": {
+      "rev": "48262cda6a8a921b159c8ec3e21b48ccd870b7b2",
+      "src": "https://github.com/ellisonleao/gruvbox.nvim"
+    }
+  }
+}
