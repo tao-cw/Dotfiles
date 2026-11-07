@@ -1,0 +1,60 @@
+# Gruvbox Dark (medium)
+# https://github.com/morhetz/gruvbox
+#
+# Colors are RGBA hex (rrggbbaa), same palette as mako/config and
+# fuzzel/themes/gruvbox-dark.ini:
+#   bg0_h #1d2021 | bg0 #282828 | bg1 #3c3836 | bg2 #504945
+#   fg0 #fbf1c7 | fg1 #ebdbb2 | gray #928374
+#   red #fb4934 | green #b8bb26 | yellow #fabd2f | orange #fe8019
+#
+# NOTE: swaylock does NOT support trailing comments — everything after
+# key= is taken as the value. Keep comments on their own lines.
+
+# screen fill (bg0_h)
+color=1d2021ff
+
+font=sans
+font-size=24
+indicator-radius=100
+indicator-thickness=14
+
+# inside of indicator (bg0; bg1 when wrong)
+inside-color=282828ff
+inside-ver-color=282828ff
+inside-clear-color=282828ff
+inside-caps-lock-color=282828ff
+inside-wrong-color=3c3836ff
+
+# ring: bg2 idle, yellow verifying, green cleared, orange caps, red wrong
+ring-color=504945ff
+ring-ver-color=fabd2fff
+ring-clear-color=b8bb26ff
+ring-caps-lock-color=fe8019ff
+ring-wrong-color=fb4934ff
+
+# transparent line between inside and ring
+line-color=00000000
+line-ver-color=00000000
+line-clear-color=00000000
+line-caps-lock-color=00000000
+line-wrong-color=00000000
+
+# text: fg1 idle, fg0 verifying, state colors otherwise
+text-color=ebdbb2ff
+text-ver-color=fbf1c7ff
+text-clear-color=b8bb26ff
+text-caps-lock-color=fe8019ff
+text-wrong-color=fb4934ff
+
+# key press highlight green, backspace red
+key-hl-color=b8bb26ff
+bs-hl-color=fb4934ff
+caps-lock-key-hl-color=fe8019ff
+caps-lock-bs-hl-color=fb4934ff
+
+separator-color=00000000
+
+# keyboard layout box (bg0 / bg2 / fg1)
+layout-bg-color=282828ff
+layout-border-color=504945ff
+layout-text-color=ebdbb2ff
