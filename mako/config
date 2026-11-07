@@ -1,0 +1,45 @@
+# Gruvbox Dark
+# bg0_h #1d2021 | bg0 #282828 | bg1 #3c3836 | bg2 #504945
+# fg0 #fbf1c7 | fg1 #ebdbb2 | fg4 #a89984 | gray #928374
+# red #fb4934 | green #b8bb26 | yellow #fabd2f | blue #83a598
+# purple #d3869b | aqua #8ec07c | orange #fe8019
+
+font=sans 14
+width=300
+height=300
+# mako enforces content inset >= border-radius (verified: effective
+# padding = max(padding, border-radius)), so this must be >= radius below.
+padding=12
+margin=10
+
+border-size=2
+border-radius=12
+icon-border-radius=8
+
+# mako only searches hicolor + /usr/share/pixmaps by default, so icon
+# *names* (e.g. "dialog-information") never resolve. Point it at the
+# installed themes; absolute icon paths work regardless.
+icon-path=/usr/share/icons/Adwaita:/usr/share/icons/AdwaitaLegacy:/usr/share/icons/hicolor
+
+background-color=#282828
+text-color=#ebdbb2
+border-color=#504945
+progress-color=over #fabd2f
+
+[urgency=low]
+background-color=#1d2021
+text-color=#a89984
+border-color=#3c3836
+default-timeout=3000
+
+[urgency=normal]
+background-color=#282828
+text-color=#ebdbb2
+border-color=#83a598
+default-timeout=5000
+
+[urgency=critical]
+background-color=#3c3836
+text-color=#fbf1c7
+border-color=#fb4934
+default-timeout=10000
