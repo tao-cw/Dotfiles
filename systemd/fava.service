@@ -1,0 +1,13 @@
+[Unit]
+Description=Fava web interface for the taocw ledger
+Documentation=https://beancount.github.io/fava/
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/fava /home/taocw/workspace/ledger/main.bean
+WorkingDirectory=/home/taocw/workspace/ledger
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
