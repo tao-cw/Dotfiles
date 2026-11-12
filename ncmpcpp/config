@@ -5,7 +5,7 @@
 
 ##### directories / connection #####
 ncmpcpp_directory = ~/.config/ncmpcpp
-lyrics_directory = ~/Music/lyrics
+lyrics_directory = ~/.local/share/ncmpcpp/lyrics
 mpd_music_dir = ~/Music
 mpd_host = localhost
 mpd_port = 6600
