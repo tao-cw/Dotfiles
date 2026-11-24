@@ -1,0 +1,31 @@
+[mgr]
+ratio = [2, 4, 4]
+linemode = "size"
+scrolloff = 10
+
+[preview]
+max_width = 1280
+max_height = 1920
+image_filter = "lanczos3"
+image_quality = 90
+
+[opener]
+imgview = [
+	{ run = "imv %s", desc = "View image", orphan = true },
+]
+
+[open]
+prepend_rules = [
+	{ mime = "image/*", use = "imgview" },
+]
+
+# git.yazi: show git status in the linemode column
+[[plugin.prepend_fetchers]]
+url = "*"
+run = "git"
+group = "git"
+
+[[plugin.prepend_fetchers]]
+url = "*/"
+run = "git"
+group = "git"
