@@ -36,6 +36,4 @@ https://github.com/yshui/picom/releases.atom "release" "~Releases: Picom"
 https://github.com/gkd-kit/gkd/releases.atom "release" "~Releases: gkd"
 https://newsboat.org/news.atom "release" "~Releases: Newsboat"
 
-https://www.kernel.org/feeds/kdist.xml "release" "~Releases: Linux Kernel"
-
 https://peps.python.org/peps.rss "python" "~Python: PEPs"
