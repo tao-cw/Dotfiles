@@ -22,57 +22,61 @@ if status is-interactive
   end
   '
 
-  alias lg 'lazygit'
-  alias nb 'newsboat'
-  alias vi 'nvim'
-  alias py 'PAGER="bat --plain" python'
-  alias dl 'aria2c'
-  alias cd 'z'
+  abbr --add lg lazygit
+  abbr --add nb 'newsboat -q'
+  abbr --add vi nvim
+  abbr --add py 'PAGER="bat --plain" python'
+  abbr --add dl aria2c
+  abbr --add cd z
+  abbr --add mp ncmpcpp -q
+  abbr --add ssh 'kitten ssh'
 
-  alias info 'info --vi-keys'
-  alias ls 'eza --icons=always'
-  alias ll 'ls -l'
-  alias la 'ls -al'
-  alias grep 'grep --color=auto'
-  alias mv 'mv -v'
-  alias cp 'cp -v'
-  alias rm 'rm -v'
-  alias rb 'reboot'
-  alias sn 'shutdown -h now'
-  alias se 'sudo -e'
-  alias free 'free -h'
-  alias df 'df -h'
-  alias bat 'bat --style=plain'
-  alias ip 'ip -c'
+  abbr --add info 'info --vi-keys'
+  abbr --add ls 'eza --icons=always'
+  # abbrs don't re-expand, so ll/la spell out the eza form instead of 'ls -l'
+  abbr --add ll 'eza --icons=always -l'
+  abbr --add la 'eza --icons=always -al'
+  abbr --add grep 'grep --color=auto'
+  abbr --add mv 'mv -v'
+  abbr --add cp 'cp -v'
+  abbr --add rm 'rm -v'
+  abbr --add rb reboot
+  abbr --add sn 'shutdown -h now'
+  abbr --add se 'sudo -e'
+  abbr --add free 'free -h'
+  abbr --add df 'df -h'
+  abbr --add cat 'bat --style=plain'
+  abbr --add bat 'bat --style=plain'
+  abbr --add ip 'ip -c'
 
-  alias gl 'git log --pretty="tformat:%Cred%h %Cgreen%cn %Cblue%s" --graph -n 10'
+  abbr --add gl 'git log --pretty="tformat:%Cred%h %Cgreen%cn %Cblue%s" --graph -n 10'
 
-  alias dtmp 'mkdir -p /tmp/taocw-tmp && cd /tmp/taocw-tmp'
-  alias sfc 'source $HOME/.config/fish/config.fish'
+  abbr --add dtmp 'mkdir -p /tmp/taocw-tmp && cd /tmp/taocw-tmp'
+  abbr --add sfc 'source $HOME/.config/fish/config.fish'
 
-  alias smi 'sudo make install'
-  alias mc 'make clean'
+  abbr --add smi 'sudo make install'
+  abbr --add mc 'make clean'
 
   # Install / remove
-  alias paci 'sudo pacman -S'          # install from repos
-  alias pacir 'sudo pacman -Rns'       # remove pkg + unneeded deps + configs
-  alias pacu 'sudo pacman -U'          # install a local .pkg.tar.zst
+  abbr --add paci 'sudo pacman -S'          # install from repos
+  abbr --add pacir 'sudo pacman -Rns'       # remove pkg + unneeded deps + configs
+  abbr --add pacu 'sudo pacman -U'          # install a local .pkg.tar.zst
 
   # Search & inspect
-  alias pacs 'pacman -Ss'              # search repos
-  alias pacsi 'pacman -Si'             # repo info (deps, size, packager)
-  alias pacq 'pacman -Qs'              # search installed
-  alias pacqi 'pacman -Qi'             # installed package info
-  alias pacql 'pacman -Ql'             # list files in a package
-  alias pacqo 'pacman -Qo'             # which package owns a file
-  alias pacf 'pacman -F'               # which package *would* own a file
+  abbr --add pacs 'pacman -Ss'              # search repos
+  abbr --add pacsi 'pacman -Si'             # repo info (deps, size, packager)
+  abbr --add pacq 'pacman -Qs'              # search installed
+  abbr --add pacqi 'pacman -Qi'             # installed package info
+  abbr --add pacql 'pacman -Ql'             # list files in a package
+  abbr --add pacqo 'pacman -Qo'             # which package owns a file
+  abbr --add pacf 'pacman -F'               # which package *would* own a file
   # (needs one-time: sudo pacman -Fy)
 
   # Lists
-  alias pacqu 'pacman -Qu'             # pending updates
-  alias pacqe 'pacman -Qe'             # explicitly installed
-  alias pacqdt 'pacman -Qdt'           # orphan dependencies
-  alias pacforeign 'pacman -Qm'        # foreign / AUR packages
+  abbr --add pacqu 'pacman -Qu'             # pending updates
+  abbr --add pacqe 'pacman -Qe'             # explicitly installed
+  abbr --add pacqdt 'pacman -Qdt'           # orphan dependencies
+  abbr --add pacforeign 'pacman -Qm'        # foreign / AUR packages
 
   if command -q fzf
     set -gx FZF_DEFAULT_OPTS '
@@ -91,5 +95,4 @@ if status is-interactive
 
   set -gx PYVENV $HOME/workspace/venv
   test -f $PYVENV/base/bin/activate.fish; and source $PYVENV/base/bin/activate.fish
-
 end
